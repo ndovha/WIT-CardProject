@@ -1,0 +1,51 @@
+.layout {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 450px;
+    height: 250px;
+    border-radius: 5px;
+    background: linear-gradient(#e5e4e4, #fff);
+    box-shadow: 2px 5px 10px gray;
+    display: flex;
+    margin: 10px;
+    overflow: hidden;
+}
+
+.left-infor {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#935f82;
+}
+
+.left-infor p {
+    background-color:  rgba(0,0,0,0.25);
+    padding: 5px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+.right-infor {
+    position: relative;
+}
+.right-infor h1 {
+    padding-left: 10px;
+}
+img {
+    width: 100px;
+    margin: 10px;
+}
+
+.right-infor p {
+    padding: 0 10px;
+    font-size: 13px;
+}
+
+.right-infor .linkedin {
+    position: absolute;
+    bottom: 12px;
+    right: 12px;
+}
